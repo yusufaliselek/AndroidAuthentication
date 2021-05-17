@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AuthenticationFirebase</string>
+    <string name="sign_in">Giriş Yap</string>
+    <string name="email">Email</string>
+    <string name="password">Şifre</string>
+    <string name="sign_in_other_methods">Diğer Yöntemlerle Giriş Yapın</string>
+    <string name="forgot_password">Şifrenizi mi Unuttunuz?</string>
+    <string name="username">Kullanıcı Adı</string>
+    <string name="register">Kayıt Ol</string>
+    <string name="i_have_account">Hesaba sahip misiniz?</string>
+    <string name="logout">Çıkış Yap</string>
+    <string name="create_a_new_account">Hesap Oluştur</string>
+    <string name="i_have_not_account">Hesap Oluşturmadınız mı?</string>
+    <string name="settings">Ayarlar</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="reset_my_password">Şifrenizi Sıfırlayın</string>
+    <string name="ok">ONAYLA</string>
+    <string name="email_address">Email Adres</string>
+    <string name="profile">Profil</string>
+    <string name="name">İsim</string>
+    <string name="surname">Soyisim</string>
+    <string name="dies">Telefon</string>
+</resources>

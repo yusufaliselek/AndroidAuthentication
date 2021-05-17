@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+    android:background="@drawable/gradient">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_margin="?actionBarSize"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:textColor="#fff"
+            android:text="@string/create_a_new_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/username_register"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:hint="@string/username"
+            android:paddingStart="10dp"
+            android:backgroundTint="@color/white"
+            android:textColor="#fff"
+            android:textColorHint="#eee"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/email_register"
+            android:textColor="#fff"
+            android:textColorHint="#eee"
+            android:paddingStart="10dp"
+            android:hint="@string/email"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/white"
+            android:layout_height="50dp"
+            android:textSize="17sp" />
+        <EditText
+            android:id="@+id/password_register"
+            android:textColor="#fff"
+            android:textColorHint="#eee"
+            android:paddingStart="10dp"
+            android:backgroundTint="@color/white"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="17sp" />
+        <Button
+            android:id="@+id/btn_register"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:text="@string/register"
+            android:textColor="#777"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/navigate"
+            android:onClick="yonlendir"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            android:text="@string/i_have_account"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:text="@string/sign_in_other_methods"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/google"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <ImageButton
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/facebook_box"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <ImageButton
+                android:background="@drawable/twitter"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
